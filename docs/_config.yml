@@ -1,0 +1,34 @@
+theme: minima
+title: Mi Cesta Pro - Soporte
+description: Página oficial de soporte para Mi Cesta Pro
+baseurl: "/mi_cesta"
+url: "https://pacouser.github.io"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+markdown: kramdown
+highlighter: rouge
+
+# Configuración para GitHub Pages
+repository: PacoUser/mi_cesta
+github_username: PacoUser
+
+# SEO
+lang: es
+author:
+  name: Mi Cesta Pro Team
+  email: pacous@hotmail.com
+
+# Social media
+social:
+  - platform: github
+    url: https://github.com/PacoUser/mi_cesta
+
+# Navigation
+navigation:
+  - title: Soporte
+    url: /support.html
+  - title: Privacidad
+    url: /privacy-policy.html
