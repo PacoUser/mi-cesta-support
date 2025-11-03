@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soporte - Mi Cesta Pro</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        h1 { 
+            color: #4CAF50; 
+            border-bottom: 3px solid #4CAF50; 
+            padding-bottom: 15px;
+            text-align: center;
+        }
+        h2 { 
+            color: #2E7D32; 
+            margin-top: 40px; 
+            border-left: 4px solid #4CAF50;
+            padding-left: 15px;
+        }
+        .hero {
+            text-align: center;
+            background: linear-gradient(135deg, #E8F5E8, #C8E6C9);
+            padding: 30px;
+            border-radius: 10px;
+            margin: 30px 0;
+        }
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .feature-card {
+            background: #F1F8E9;
+            padding: 25px;
+            border-radius: 10px;
+            border-left: 5px solid #4CAF50;
+        }
+        .faq-item {
+            background: #FAFAFA;
+            border: 1px solid #E0E0E0;
+            border-radius: 8px;
+            margin: 15px 0;
+            overflow: hidden;
+        }
+        .faq-question {
+            background: #F5F5F5;
+            padding: 20px;
+            cursor: pointer;
+            font-weight: bold;
+            color: #2E7D32;
+        }
+        .faq-answer {
+            padding: 20px;
+            display: block;
+        }
+        .contact-info {
+            background: linear-gradient(135deg, #E8F5E8, #C8E6C9);
+            padding: 30px;
+            border-radius: 10px;
+            margin: 30px 0;
+            text-align: center;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 2px solid #E0E0E0;
+            color: #666;
+        }
+        .price-tag {
+            background: #4CAF50;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: bold;
+            display: inline-block;
+        }
+        .theme-preview {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🛍️ Soporte - Mi Cesta Pro</h1>
+        
+        <div class="hero">
+            <h2 style="margin-top: 0; border: none; padding: 0;">¡Bienvenido a Mi Cesta Pro!</h2>
+            <p style="font-size: 1.1em;">La aplicación de listas de compras más completa con funciones profesionales</p>
+            <span class="price-tag">€1,99 en App Store</span>
+        </div>
+        
+        <h2>🎨 Características Principales</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <h3>🎨 5 Temas Profesionales</h3>
+                <p><span class="theme-preview" style="background: #2196F3;"></span><strong>Clásico:</strong> Diseño limpio y elegante</p>
+                <p><span class="theme-preview" style="background: #1976D2;"></span><strong>Azul Pro:</strong> Profesional y moderno</p>
+                <p><span class="theme-preview" style="background: #424242;"></span><strong>Oscuro Pro:</strong> Perfecto para uso nocturno</p>
+                <p><span class="theme-preview" style="background: #388E3C;"></span><strong>Verde Pro:</strong> Fresco y natural</p>
+                <p><span class="theme-preview" style="background: #E91E63;"></span><strong>Rosa Pro:</strong> Elegante y vibrante</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>🗣️ Dictado por Voz</h3>
+                <p>Añade productos a tu lista simplemente hablando. Reconocimiento de voz inteligente que funciona offline.</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>📱 Escáner de Códigos</h3>
+                <p>Escanea códigos de barras para añadir productos automáticamente con información completa.</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>🌍 6 Idiomas</h3>
+                <p>Disponible en Español, Inglés, Alemán, Francés, Italiano y Portugués.</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>☁️ Sincronización iCloud</h3>
+                <p>Tus listas se sincronizan automáticamente en todos tus dispositivos Apple.</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>✅ Gestión Inteligente</h3>
+                <p>Organiza, reordena y marca productos como completados con gestos intuitivos.</p>
+            </div>
+        </div>
+        
+        <h2>❓ Preguntas Frecuentes</h2>
+        
+        <div class="faq-item">
+            <div class="faq-question">¿Cómo cambio el tema de la aplicación?</div>
+            <div class="faq-answer">
+                Ve a <strong>Configuración → Tema</strong> y selecciona uno de los 5 temas profesionales disponibles. Los cambios se aplican inmediatamente.
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">¿Cómo uso el dictado por voz?</div>
+            <div class="faq-answer">
+                Toca el botón del micrófono en la pantalla principal y di el nombre del producto. La aplicación lo añadirá automáticamente a tu lista.
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">¿El escáner de códigos funciona offline?</div>
+            <div class="faq-answer">
+                El escaneo funciona offline, pero para obtener información detallada del producto necesitas conexión a internet. Los productos se guardan localmente para uso futuro.
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">¿Mis listas se sincronizan automáticamente?</div>
+            <div class="faq-answer">
+                Sí, si tienes iCloud activado, tus listas se sincronizan automáticamente entre todos tus dispositivos Apple (iPhone, iPad, Mac).
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">¿Puedo usar la aplicación sin internet?</div>
+            <div class="faq-answer">
+                ¡Absolutamente! Mi Cesta Pro funciona completamente offline. Solo necesitas internet para escanear nuevos productos y sincronización iCloud.
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">¿Cómo reordeno los productos en mi lista?</div>
+            <div class="faq-answer">
+                Mantén presionado un producto y arrástralo a la posición deseada. También puedes usar el botón de reordenar en cada producto.
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <div class="faq-question">¿Los temas Pro valen la pena?</div>
+            <div class="faq-answer">
+                Los temas Pro ofrecen una experiencia visual superior con colores cuidadosamente seleccionados, mejor contraste y diseño profesional para un uso más cómodo.
+            </div>
+        </div>
+        
+        <h2>🚀 Cómo Empezar</h2>
+        <ol>
+            <li><strong>Crea tu primera lista:</strong> Toca "+" para añadir una nueva lista de compras</li>
+            <li><strong>Añade productos:</strong> Usa el botón "+" dentro de la lista, dictado por voz, o escáner</li>
+            <li><strong>Personaliza:</strong> Ve a Configuración para elegir tu tema favorito</li>
+            <li><strong>Sincroniza:</strong> Activa iCloud para tener tus listas en todos tus dispositivos</li>
+        </ol>
+        
+        <h2>🔧 Solución de Problemas</h2>
+        
+        <h3>El micrófono no funciona</h3>
+        <p>Ve a <strong>Configuración → Privacidad → Micrófono</strong> y asegúrate de que Mi Cesta Pro tiene permisos activados.</p>
+        
+        <h3>El escáner no escanea códigos</h3>
+        <p>Verifica que la cámara tenga permisos en <strong>Configuración → Privacidad → Cámara</strong>. Asegúrate de que haya buena iluminación.</p>
+        
+        <h3>Las listas no se sincronizan</h3>
+        <p>Verifica que iCloud esté activado en <strong>Configuración → [Tu nombre] → iCloud</strong> y que tengas conexión a internet.</p>
+        
+        <div class="contact-info">
+            <h2>📧 Contacto y Soporte</h2>
+            <p><strong>Email de Soporte:</strong></p>
+            <p style="font-size: 1.2em; font-weight: bold;">tupacoproductos@gmail.com</p>
+            <p><strong>Horario de Atención:</strong> Lunes a Viernes, 9:00 - 18:00 CET</p>
+            <p><strong>Tiempo de Respuesta:</strong> Dentro de 24 horas</p>
+        </div>
+        
+        <h2>🔄 Actualizaciones</h2>
+        <p>Mantén la aplicación actualizada para obtener las últimas funciones y mejoras. Las actualizaciones se notifican automáticamente a través de App Store.</p>
+        
+        <div class="footer">
+            <p><strong>© 2025 Tu Paco Productos - Mi Cesta Pro</strong></p>
+            <p>Versión: 1.2.0 | <a href="privacy-policy-es.html">Política de Privacidad</a></p>
+            <p><small>Desarrollado con ❤️ para hacer tus compras más fáciles</small></p>
+        </div>
+    </div>
+</body>
+</html>
